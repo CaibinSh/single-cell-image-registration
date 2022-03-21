@@ -1,6 +1,8 @@
 # single-cell-image-registration
 
-This is designed to do image registration for multiple channel images for live-cell microscopy experiments. The ‘test.py’ and example images will show you the robustness of this algorithm.
+This is designed to perform image registration for multiple channel images for live-cell microscopy experiments. Live-cell images show a significant shift over time due to many factors (e.g.  imperfect relocation of microscopy focus and evaporation of medium), this brings difficulty for cell tracking, given that cells are also moving. This tool allows maximization of image alighment over time and thus increases number of cells being tracked.
+
+The ‘test.py’ and example images will show you the robustness of this algorithm. This work was done during my PhD at Prof. Alexander Loewer's lab.
 
 # testing
 
